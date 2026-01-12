@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main section -->
+      <section class="phone-navbar-section">
+        <div class="phone-main">
+        <div class="exit-icon">
+         <img src="/assets/icons/exit.png" height="30px" width="30px"> 
+         </div>
+         <div class="mobile-links">
+        <ul class="mobile-navbar-list">
+          <li class="mobile-navbar-list-item"><a href="">Home</a></li>
+          <li class="mobile-navbar-list-item"><a href="">Forecast</a></li>
+          <li class="mobile-navbar-list-item"><a href="">Location</a></li>
+          <li class="mobile-navbar-list-item"><a href="">Analytics</a></li>
+          <li class="mobile-navbar-list-item"><a href="">Maps</a></li>
+        </ul>
+        </div>
+        </div>
+       </section>
+    <section class="main">
+      <!-- left section  -->
+
+      <section class="left-section-nav">
+        <div class="menu-open">
+          <img class="js-changeble-arr" src="/assets/icons/Double Right.png" alt=""> 
+        
+        </div>
+        <!-- left section navbar -->
+        <ul class="left-nav-list">
+          
+          <li class="nav-left-list-item">
+            <img src="/assets/icons/Home.png" alt="" /><a href="">Home</a>
+          </li>
+          <li class="nav-left-list-item">
+            <img src="/assets/icons/Compass.png" alt="" /><a href=""
+              >Forecast</a
+            >
+          </li>
+          <li class="nav-left-list-item">
+            <img src="/assets/icons/Location (1).png" alt="" /><a href=""
+              >Location</a
+            >
+          </li>
+          <li class="nav-left-list-item">
+            <img src="/assets/icons/Analytics.png" alt="" /><a href=""
+              >Analytics</a
+            >
+          </li>
+          <li class="nav-left-list-item">
+            <img src="/assets/icons/Navigation.png" alt="" /><a href="">Maps</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- right section  -->
+       
+
+      <section class="right-section-main">
+        <!-- right section navbar -->
+        <nav class="right-navbar-upper">
+           <div class="menu-icon">
+              <img src="/assets/icons/menu (3).png" alt="">
+            </div>
+          <div class="upper-right-navbar-half-1">
+           
+            <div class="right-navbar-input">
+              <input id="search-input" type="text" autocomplete="off" />
+              <label class="search-input-label" for="search-input">
+                <img src="/assets/icons/Search.png" alt="" />
+                <h1 class="Label-placeholder">Search Location</h1>
+              </label>
+            </div>
+            <div class="search-input-button">
+              <button><img src="/assets/icons/Email Send.png" alt="" /></button>
+            </div>
+          </div>
+
+          <div class="upper-right-navbar-half-2">
+            <button><img src="/assets/icons/Plus Math.png" alt="" /></button>
+            <h3>Add City</h3>
+          </div>
+        </nav>
+
+        <!-- right section main information -->
+
+        <section class="right-main">
+          <div class="right-main-information-upper">
+            <div class="current-weather-details-1">
+              <div class="current-weather-details-1-text">
+                <div class="text-upper-current-weather">
+                  <h1 class="js-city-name">------</h1>
+                  <p class="js-time-day">Monday,10:03 PM</p>
+                </div>
+                <div class="text-down-current-weather">
+                  <div class="down-text-1">
+                    <h1 class="js-weather-temperature">------</h1>
+                    <p class="js-weather-description">------</p>
+                  </div>
+                  <div class="down-text-2">
+                    <p class="js-feelslike-temperatur"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="current-weather-1-image">
+                <img class="js-weather-icon" src="" alt="" />
+              </div>
+            </div>
+
+            <div class="current-weather-details-2">
+              <h1>Weather Deatils</h1>
+              <div class="weather-details-list">
+                <ul class="details-list">
+                  <li class="detail js-detail-humidity">
+                    <img src="/assets/icons/Wet.png" alt="" />------
+                  </li>
+                  <li class="detail js-detail-wind">
+                    <img src="/assets/icons/Wind.png" alt="" />------
+                  </li>
+                  <li class="detail js-detail-pressure">
+                    <img
+                      src="/assets/icons/Pressure Gauge.png"
+                      alt=""
+                    />------
+                  </li>
+                  <li class="detail">
+                    <img src="/assets/icons/Sun.png" alt="" />UV Index: Moderate
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="current-weather-details-3">
+              <h1>Saved Cities</h1>
+              <div class="saved-cities-information">
+                <h1>No Info</h1>
+              </div>
+            </div>
+          </div>
+          <div class="right-main-information-down">
+           
+          </div>
+        </section>
+      </section>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
