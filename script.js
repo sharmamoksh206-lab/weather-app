@@ -88,18 +88,18 @@ const countryNames = {
 // sorces for weather icons
 
 const iconSources = [
-  "/assets/weather icons/storm.png", //thunderStorm icon
-  "/assets/weather icons/drizzle.png", //drizzle icon
-  "/assets/weather icons/rain.png", // rain icon
-  "/assets/weather icons/snow.png", // snow icon
-  "/assets/weather icons/wind (1).png", //atmosphere icon
-  "/assets/weather icons/sun (1).png", //sum icon
-  "/assets/images/ChatGPT Image Dec 31, 2025, 09_06_44 PM 1.png", // for few clouds
-  "/assets/weather icons/night clouds.png", // for night few clouds
-  "/assets/weather icons/night clear.png", //fpr night clear
-  "/assets/weather icons/night thunderstorm.png", // for night thunderstorm
-  "/assets/weather icons/night drizzle.png", // for night drizzle
-  "/assets/weather icons/night rain.png", // for night rain
+  "./assets/weather icons/storm.png", //thunderStorm icon
+  "./assets/weather icons/drizzle.png", //drizzle icon
+  "./assets/weather icons/rain.png", // rain icon
+  "./assets/weather icons/snow.png", // snow icon
+  "./assets/weather icons/wind (1).png", //atmosphere icon
+  "./assets/weather icons/sun (1).png", //sum icon
+  "./assets/images/ChatGPT Image Dec 31, 2025, 09_06_44 PM 1.png", // for few clouds
+  "./assets/weather icons/night clouds.png", // for night few clouds
+  "./assets/weather icons/night clear.png", //fpr night clear
+  "./assets/weather icons/night thunderstorm.png", // for night thunderstorm
+  "./assets/weather icons/night drizzle.png", // for night drizzle
+  "./assets/weather icons/night rain.png", // for night rain
 ];
 
 // clickedElement.addEventListener("blur", () => {
