@@ -174,10 +174,10 @@ function updateWeatherInfo(city) {
 
       //updating weather details
 
-      humidityDetails.innerHTML = `<img src="/assets/icons/Wet.png" alt="" />Humidity: ${impValues.humidity}%`;
-      windDetails.innerHTML = `<img src="/assets/icons/Wind.png" alt="" />Wind: ${impValues.wind} KwH`;
+      humidityDetails.innerHTML = `<img src="./assets/icons/Wet.png" alt="" />Humidity: ${impValues.humidity}%`;
+      windDetails.innerHTML = `<img src="./assets/icons/Wind.png" alt="" />Wind: ${impValues.wind} KwH`;
       pressureDetails.innerHTML = ` <img
-                      src="/assets/icons/Pressure Gauge.png"
+                      src="./assets/icons/Pressure Gauge.png"
                       alt=""
                     />Pressure: ${impValues.pressure} hPa`;
 
@@ -350,7 +350,7 @@ if (sideBarContainer.style.width === "300px") {
   })
    sideBarArrow.style.marginLeft = "0px";
 
-  changebleArr.src = "/assets/icons/Double Right.png";
+  changebleArr.src = "./assets/icons/Double Right.png";
 
 }else{
    sideBarContainer.style.width = "300px";
@@ -360,7 +360,7 @@ if (sideBarContainer.style.width === "300px") {
   })
   sideBarArrow.style.marginLeft = "150px";
   
-  changebleArr.src = "/assets/icons/Double Left.png";
+  changebleArr.src = "./assets/icons/Double Left.png";
 }
 
   
