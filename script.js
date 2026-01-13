@@ -374,7 +374,7 @@ console.log(sideLinks);
 
 // mobile navbar function
 
-const mobileIcon = document.querySelector(".menu-icon img")
+const mobileIcon = document.querySelector(".menu-icon span")
 const mobileNavbar = document.querySelector('.phone-navbar-section')
 const mobileNavbarExit = document.querySelector(".exit-icon img")
 

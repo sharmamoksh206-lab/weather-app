@@ -394,7 +394,9 @@ display: none;
     height: 150px;
   }
 
-
+.material-symbols-outlined{
+scale: 1.5;
+}
   /* responsiveness */
 
 
