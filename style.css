@@ -478,7 +478,7 @@ scale: 1.5;
       width: 35vw;
     }
     .menu-icon{
-  display: flex;
+  display: block;
 }
  .right-navbar-upper {
     justify-content: space-around;
